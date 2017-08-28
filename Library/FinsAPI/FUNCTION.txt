@@ -1,0 +1,116 @@
+//--------------------------------------------------------------------------------------------
+// 
+// Title		:	FinsGateway 動作バージョンの規定処理
+//
+// Function		:	BOOL	uStartUP_FGW()
+//
+// Parameters	:	void
+//               
+// Return       :	BOOL ････ TRUE  : 正常(OK)
+//							  FALSE : 異常(NG)
+//
+// Discription	:	FinsApi の動作バージョンを規定します
+//
+//--------------------------------------------------------------------------------------------
+BOOL	uStartUP_FGW()
+
+
+//--------------------------------------------------------------------------------------------
+// 
+// Title		:	FinsGateway 初期化処理( FinsGateway Init)
+//
+// Function		:	BOOL	uInitFGW( char* szUnitName, int nID )
+//
+// Parameters	:	int		nID ･･････････ ＩＤ番号(ID No.)
+//					char*	szUnitName ･･･ ユニット名称(Unit name)
+//               
+// Return       :	HNET ････ ネットワークハンドル(Network handle)
+//							  異常の時 = NULL( error = null)
+//
+// Discription	:	ネットワークハンドル、ＦＩＮＳヘッダ等の作成( Network handle, Fins Header create)
+//
+//--------------------------------------------------------------------------------------------
+HNET	uInitFGW( int nID, char* szUnitName )
+
+
+//--------------------------------------------------------------------------------------------
+// 
+// Title		:	FinsGateway 終了処理
+//
+// Function		:	int	uEndFGW( int nID )
+//
+// Parameters	:	int		nID ･･････････ ＩＤ番号(ID No.)
+//               
+// Return       :	int ････ C_RETURN_CODE_SUCCESS  : 正常 =  0(OK)
+//							 C_RETURN_CODE_FAILED   : 異常 = -1(NG)
+//
+// Discription	:	Fins ネットワークハンドルの開放(Network handle is free)
+//
+//--------------------------------------------------------------------------------------------
+int	uEndFGW( int nID )
+
+
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// 
+// Title		:	変数（ＤＭ／ＥＭ）エリアからデータを取得する（チャンネル内容反転バージョン）
+//
+// Function		:	BOOL	uRead_MEM_Data_Rev_WithErrcode( HNET hNetWork, BYTE nKind, BYTE nNet, BYTE nNode, BYTE nUnit, WORD nAddress, WORD nLength, WORD* Data, DWORD* dwErrType, DWORD* dwErrCode )
+//
+// Parameters	:	int		nID      ････････ ＩＤ番号(ID No.)
+//					BYTE	nKind    ････････ 変数種別(Kind DM=0x82, EM0=0xA0, EM1=0xA・・・・)
+//					BYTE	nNet     ････････ ネットワーク番号(Fins nwtwork No.)
+//					BYTE	nNode    ････････ ノード番号(Fins node No.)
+//					BYTE	nUnit    ････････ ユニット番号(Fins unit No.) Unit alway is 0
+//					WORD	nAddress ････････ 読み出し先頭アドレス( read top address )
+//					WORD	nLength  ････････ 読み出しサイズ(Read size)
+//					WORD*	Data     ････････ 読み出しエリア(Read area)
+//					DWORD*	dwErrorType ･････ 0:正常、1:タイムアウト
+//											  10:FinsHead_composeエラー
+//											  11:Fins_sendDataエラー
+//											  12:Fins_receiveDataエラー
+//											  13:Fins_receiveDataエラーHEAD情報の不一致
+//											  100:受信データエラー
+//					DWORD*	dwdwErrCode ･････ 0:正常又は情報無し、dwErrorType=10～99の時GetLastError値、dwErrorType=100の時受信エラーコード
+//               
+// Return       :	BOOL ････ TRUE  : 正常（Fins 正常）
+//							  FALSE : 異常（Fins 異常）
+//
+// Discription	:	指定アドレスから指定サイズ分 データを取得する
+//					nLength >= 1024 であること（チャンネル内容反転バージョン）
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+BOOL	uRead_MEM_Data_Rev_WithErrcode( int nID, BYTE nKind, BYTE nNet, BYTE nNode, BYTE nUnit, WORD nAddress, WORD nLength, WORD* Data, DWORD* dwErrType, DWORD* dwErrCode )
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------
+// 
+// Title		:	変数（ＤＭ／ＥＭ）エリアへデータを書き込む（チャンネル内容反転バージョン）
+//
+// Function		:	BOOL	uWrite_MEM_Data_Rev_WithErrcode( HNET hNetWork, BYTE nKind, BYTE nNet, BYTE nNode, BYTE nUnit, WORD nAddress, WORD nLength, WORD* Data, DWORD* dwErrType, DWORD* dwErrCode )
+//
+// Parameters	:	int		nID      ････････ ＩＤ番号
+//					BYTE	nKind    ････････ 変数種別
+//					BYTE	nNet     ････････ ネットワーク番号
+//					BYTE	nNode    ････････ ノード番号
+//					BYTE	nUnit    ････････ ユニット番号
+//                 	WORD	nAddress ････････ 書き込み先頭アドレス
+//					WORD	nLength  ････････ 書き込みサイズ
+//					WORD*	Data     ････････ 書き込みデータアドレス
+//					DWORD*	dwErrorType ･････ 0:正常、1:タイムアウト
+//											  10:FinsHead_composeエラー
+//											  11:Fins_sendDataエラー
+//											  12:Fins_receiveDataエラー
+//											  13:Fins_receiveDataエラーHEAD情報の不一致
+//											  100:受信データエラー
+//					DWORD*	dwdwErrCode ･････ 0:正常又は情報無し、dwErrorType=10～99の時GetLastError値、dwErrorType=100の時受信エラーコード
+//               
+// Return       :	BOOL ････ TRUE  : 正常（Fins 正常）
+//							  FALSE : 異常（Fins 異常）
+//
+// Discription	:	指定アドレスから指定サイズ分 データを書き込む
+//					nLength >= 1024 であること（チャンネル内容反転バージョン）
+//
+//---------------------------------------------------------------------------------------------------------------------------------------------------
+BOOL	uWrite_MEM_Data_Rev_WithErrcode( int nID, BYTE nKind, BYTE nNet, BYTE nNode, BYTE nUnit, WORD nAddress, WORD nLength, WORD* Data, DWORD* dwErrType, DWORD* dwErrCode )
+

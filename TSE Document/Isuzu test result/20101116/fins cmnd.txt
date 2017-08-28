@@ -1,0 +1,8 @@
+Read Request Line 7
+0101825C3000000A
+
+Write Ins Area Line 7
+0101825078000064
+
+Write Carry Out Line 7
+01018255FC00000A

@@ -1,0 +1,17 @@
+?	F1 PRODUCTION DATA
+Displays and allows editing of production data.
+?	F2 INSTRUCTION SCHDULE
+Displays and allows editing of model instruction schedule.
+?	F3 FLOW SETTING
+The flow of the production order of the module line is decided. 
+
+
+
+1.1	F1: PRODUCTION DATA
+Displays and allows editing of the production data schedule.
+
+1.2	F2:INSTRUCTION SCHDULE
+The schedule of the production instruction is displayed, and edited by the unit of the module line. 
+
+1.3	F3:FLOW SETTING
+The flow of the production order of each module line is decided. 

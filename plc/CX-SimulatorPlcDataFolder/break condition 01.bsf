@@ -1,0 +1,4 @@
+[BreakCondition]
+AND0=1,W,D,20000,<>,0
+AND_COUNT=1
+OR_COUNT=0

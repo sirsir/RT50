@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PIS_SERVER.PisServer" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BghFARJCEDgEgtiSCICABiGCBKjAAQHYAVJbgxRDQEM=</HashCode>
+      <FileName>PisServer.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIS_SERVER.clsAs400File" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QgAQAAVEAAQACAQAAIAAAiaQAQCKGAAAKIICGCBABQA=</HashCode>
+      <FileName>clsAs400File.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIS_SERVER.clsPlcInteract" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CIBggiAAACAAAAIIBAAAAgAACBAAEAACQQAAEAAAAAQ=</HashCode>
+      <FileName>clsPlcInteract.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIS_SERVER.clsPLCCommunicationTester" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>RRTJAJgQmEFaghTKMhAg2kCc6AAIIEAggkCoFQMOgpk=</HashCode>
+      <FileName>PisServer.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIS_SERVER.ServerDataset" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="PIS_SERVER.ServerDataset.T_LOG_DATRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="PIS_SERVER.ServerDataset.T_Instruction_DATDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="PIS_SERVER.ServerDataset.T_Instruction_DATRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="PIS_SERVER.ServerDataset.T_Production_DATRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="PIS_SERVER.ServerDataset.T_Line_MSTRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="PIS_SERVER.ServerDataset.T_LOG_DATRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="PIS_SERVER.ServerDataset.T_Line_MSTDataTable" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ServerDataset.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="PIS_SERVER.ServerDataset.T_Line_MSTRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="PIS_SERVER.ServerDataset.T_Instruction_DATRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="PIS_SERVER.ServerDataset.T_Production_DATRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="PIS_SERVER.ServerDataset.T_Instruction_DATRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="PIS_SERVER.ServerDataset.T_Production_DATRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="PIS_SERVER.ServerDataset.T_Production_DATDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="PIS_SERVER.ServerDataset.T_LOG_DATRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="PIS_SERVER.ServerDataset.T_LOG_DATDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="PIS_SERVER.ServerDataset.T_Line_MSTRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABIAAAAAwAAAAJEJAgAQAAAAAgCQBkAAAAAAQEQhFA=</HashCode>
+      <FileName>ServerDataset.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIS_SERVER.My.MyApplication" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIS_SERVER.My.MySettings" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABAAIEAABAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIS_SERVER.ServerDatasetTableAdapters.T_Line_MSTTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIS_SERVER.ServerDatasetTableAdapters.T_Production_DATTableAdapter" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIS_SERVER.ServerDatasetTableAdapters.T_Instruction_DATTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAWAAGAAEAAAAAcAIAQAAAAAADEICAAAIAAAAAAChBA=</HashCode>
+      <FileName>ServerDataset.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIS_SERVER.ServerDatasetTableAdapters.T_LOG_DATTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIEAAAAAACCEICAAAAAAAAAAABBA=</HashCode>
+      <FileName>ServerDataset.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIS_SERVER.ServerDatasetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="PIS_SERVER.ServerDatasetTableAdapters.TableAdapterManager.UpdateOrderOption" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Class Name="PIS_SERVER.ServerDatasetTableAdapters.TableAdapterManager.SelfReferenceComparer" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AYAAACAEAEDABAEBAAAAcAQgAAACiAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="PIS_SERVER.My.MySettingsProperty" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="PIS_SERVER.My.Resources.Resources" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,7 @@
+set APP_PATH=%1
+set HULFT_PATH=%2
+set AS400_PATH=%3
+
+del %AS400_PATH%
+call %APP_PATH%\log-service.exe 0,0,"utlrecv start"
+call %HULFT_PATH%\utlrecv -f GHTD001A -h AS400T1 | c:\AS400\ReadStdIO\bin\Debug\ReadStdIO.exe

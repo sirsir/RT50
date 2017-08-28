@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\RT50\- svn-paint\log-Service\bin\Release\log-Service.exe
+C:\Users\Administrator\Desktop\RT50\- svn-paint\log-Service\bin\Release\log-Service.pdb
+C:\Users\Administrator\Desktop\RT50\- svn-paint\log-Service\bin\Release\log-Service.xml
+C:\Users\Administrator\Desktop\RT50\- svn-paint\log-Service\bin\Release\Common.dll
+C:\Users\Administrator\Desktop\RT50\- svn-paint\log-Service\bin\Release\Common.pdb
+C:\Users\Administrator\Desktop\RT50\- svn-paint\log-Service\bin\Release\Common.xml
+C:\Users\Administrator\Desktop\RT50\- svn-paint\log-Service\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\RT50\- svn-paint\log-Service\obj\Release\log_Service.Resources.resources
+C:\Users\Administrator\Desktop\RT50\- svn-paint\log-Service\obj\Release\log-Service.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\RT50\- svn-paint\log-Service\obj\Release\log-Service.exe
+C:\Users\Administrator\Desktop\RT50\- svn-paint\log-Service\obj\Release\log-Service.xml
+C:\Users\Administrator\Desktop\RT50\- svn-paint\log-Service\obj\Release\log-Service.pdb

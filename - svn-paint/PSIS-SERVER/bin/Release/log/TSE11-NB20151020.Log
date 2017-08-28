@@ -1,0 +1,26 @@
+20/10/2015 10:42:46 ***** System Start ***
+20/10/2015 10:42:47[NORMAL ][TSE11-NB][MyApplication][StartUp][LoadINI][]
+20/10/2015 10:54:25 ***** System Start ***
+20/10/2015 10:54:25[NORMAL ][TSE11-NB][MyApplication][StartUp][LoadINI][]
+20/10/2015 10:54:25[NORMAL ][TSE11-NB][MyApplication][StartUp][LoadLogMaster][]
+20/10/2015 10:54:25[NORMAL ][TSE11-NB][MyApplication][StartUp][LoadProcessMaster][]
+20/10/2015 10:54:43[NORMAL ][TSE11-NB][clsImportFile][CheckNewFile][Start][]
+20/10/2015 10:54:43[NORMAL ][TSE11-NB][clsImportFile][CheckNewFile][End][]
+20/10/2015 10:54:45[NORMAL ][TSE11-NB][clsImportFile][CheckNewFile][Start][]
+20/10/2015 10:54:45[NORMAL ][TSE11-NB][clsImportFile][CheckNewFile][End][]
+20/10/2015 10:54:46[ERROR  ][TSE11-NB][frmPaintServer][BackgroundWorker_ProgressChanged][Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index][]
+20/10/2015 10:54:46[ERROR  ][TSE11-NB][frmPaintServer][BackgroundWorker_ProgressChanged][Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index][]
+20/10/2015 10:54:46[ERROR  ][TSE11-NB][frmPaintServer][BackgroundWorker_ProgressChanged][Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index][]
+20/10/2015 10:54:46[ERROR  ][TSE11-NB][frmPaintServer][BackgroundWorker_ProgressChanged][Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index][]
+20/10/2015 10:54:46[ERROR  ][TSE11-NB][frmPaintServer][BackgroundWorker_ProgressChanged][Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index][]
+20/10/2015 10:54:46[ERROR  ][TSE11-NB][frmPaintServer][BackgroundWorker_ProgressChanged][Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index][]
+20/10/2015 10:54:46[ERROR  ][TSE11-NB][frmPaintServer][BackgroundWorker_ProgressChanged][Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index][]
+20/10/2015 10:54:46 ***** System End ***
+

@@ -1,0 +1,8 @@
+[BreakCondition]
+AND_COUNT=0
+OR_COUNT=0
+[CommandLog]
+LogFile=
+ADDRESS_COUNT=1
+REQUEST_COUNT=0
+ADDRESS0=1,*,*,*,

@@ -1,0 +1,7 @@
+20/10/2015 10:54:28[NORMAL ][TSE11-NB][clsPlcCommunication][SetState][Change State To :clsPBRStateWaiting][]
+20/10/2015 10:54:41[ERROR  ][TSE11-NB][clsPBRStateWaiting][ReadFromPlc][UC Spot Repair 4 - FAIL][]
+20/10/2015 10:54:41[ERROR  ][TSE11-NB][clsPlcCommunication][DoWork][PLC Connect Failed][]
+20/10/2015 10:54:43[ERROR  ][TSE11-NB][clsPBRStateWaiting][ReadFromPlc][UC Spot Repair 4 - FAIL][]
+20/10/2015 10:54:43[ERROR  ][TSE11-NB][clsPlcCommunication][DoWork][PLC Connect Failed][]
+20/10/2015 10:54:45[ERROR  ][TSE11-NB][clsPBRStateWaiting][ReadFromPlc][UC Spot Repair 4 - FAIL][]
+20/10/2015 10:54:45[ERROR  ][TSE11-NB][clsPlcCommunication][DoWork][PLC Connect Failed][]

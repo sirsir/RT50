@@ -1,0 +1,30 @@
+defaults: &defaults                                                
+  mode: ODBC      
+  adapter: sqlserver                                                 
+  dsn: psis
+#  dsn: local-psis-dev
+#  host: psis-server
+  #database_data_root: E:\MSSQL2008\DATA\omron\psis
+#  host: localhost
+#  database_data_root: C:\Program Files\Microsoft SQL Server\MSSQL10_50.SQL2008\MSSQL\DATA
+  username: psisuser
+  password: 36a2c3             
+                                                                   
+development:                                                       
+  database: psis_development
+  database_data_root: E:\MSSQL2008\DATA\omron\psis\development
+  <<: *defaults                                                    
+                                                                   
+ # Warning: The database defined as "test" will be erased and      
+ # re-generated from your development database when you run "rake".
+ # Do not set this db to the same as development or production.    
+
+test:                                                             
+  database: psis_test
+  database_data_root: E:\MSSQL2008\DATA\omron\psis\test
+  <<: *defaults      
+                                                                                                                    
+production:                                                       
+  database: psis_production
+  database_data_root: E:\MSSQL2008\DATA\omron\psis\production
+  <<: *defaults                                                    

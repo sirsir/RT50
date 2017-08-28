@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\bin\Release\PSIS-SCHEDULER.exe
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\bin\Release\PSIS-SCHEDULER.pdb
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\bin\Release\PSIS-SCHEDULER.xml
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\bin\Release\Common.dll
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\bin\Release\Common.pdb
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\bin\Release\Common.xml
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\obj\Release\PSIS_SCHEDULER.Resources.resources
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\obj\Release\PSIS_SCHEDULER.PsisScheduler.resources
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\obj\Release\PSIS_SCHEDULER.PsisSchedulerInstaller.resources
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\obj\Release\PSIS-SCHEDULER.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\obj\Release\PSIS-SCHEDULER.exe
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\obj\Release\PSIS-SCHEDULER.xml
+C:\Users\Administrator\Desktop\RT50\- svn-paint\PSIS-SCHEDULER\obj\Release\PSIS-SCHEDULER.pdb

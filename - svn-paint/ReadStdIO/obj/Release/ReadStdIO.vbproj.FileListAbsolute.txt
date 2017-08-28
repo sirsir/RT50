@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\RT50\- svn-paint\ReadStdIO\bin\Release\ReadStdIO.exe
+C:\Users\Administrator\Desktop\RT50\- svn-paint\ReadStdIO\bin\Release\ReadStdIO.pdb
+C:\Users\Administrator\Desktop\RT50\- svn-paint\ReadStdIO\bin\Release\ReadStdIO.xml
+C:\Users\Administrator\Desktop\RT50\- svn-paint\ReadStdIO\bin\Release\Common.dll
+C:\Users\Administrator\Desktop\RT50\- svn-paint\ReadStdIO\bin\Release\Common.pdb
+C:\Users\Administrator\Desktop\RT50\- svn-paint\ReadStdIO\bin\Release\Common.xml
+C:\Users\Administrator\Desktop\RT50\- svn-paint\ReadStdIO\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\RT50\- svn-paint\ReadStdIO\obj\Release\ReadStdIO.Resources.resources
+C:\Users\Administrator\Desktop\RT50\- svn-paint\ReadStdIO\obj\Release\ReadStdIO.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\RT50\- svn-paint\ReadStdIO\obj\Release\ReadStdIO.exe
+C:\Users\Administrator\Desktop\RT50\- svn-paint\ReadStdIO\obj\Release\ReadStdIO.xml
+C:\Users\Administrator\Desktop\RT50\- svn-paint\ReadStdIO\obj\Release\ReadStdIO.pdb

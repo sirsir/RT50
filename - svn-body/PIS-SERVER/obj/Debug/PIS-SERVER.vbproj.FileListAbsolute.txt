@@ -1,0 +1,2 @@
+C:\Users\Administrator\Desktop\RT50\- svn\PIS-SERVER\bin\Debug\PIS-SERVER.exe.config
+C:\Users\Administrator\Desktop\RT50\- svn-body\PIS-SERVER\bin\Debug\PIS-SERVER.exe.config

@@ -1,0 +1,17 @@
+class AddPkToTLogDat < ActiveRecord::Migration
+  def self.up
+    execute "
+ALTER TABLE T_LOG_DAT ADD CONSTRAINT
+ PK_T_LOG_DAT PRIMARY KEY CLUSTERED
+(
+	LogType ASC,
+	OccDate ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF,
+ ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]      "
+  end
+
+  def self.down
+    execute "ALTER TABLE T_LOG_DAT
+DROP CONSTRAINT PK_T_LOG_DAT"
+  end
+end

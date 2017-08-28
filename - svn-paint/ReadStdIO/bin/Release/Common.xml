@@ -1,0 +1,408 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Common
+</name>
+</assembly>
+<members>
+<member name="P:Common.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Common.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Common.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Common.dsPAINT.dtMODEL_OPTION_ROWDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtSKIT_MSTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtWBS_ONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtLANE_MSTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtMODEL_OPTION_CELLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtINSTRUCTION_DATADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPRODUCTION_DATDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtOPTION_MSTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPAINT_CELLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPAINT_PROGRESSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPAINT_SHOPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPROCESS_OPTION_CELLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPROCESS_MSTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPLC_MSTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPROCESS_GROUP_MSTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPROCESS_LINKAGEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtLOG_DATDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtFINISHING_LINEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtMESSAGE_MSTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPlcStatusDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPBRPassResultDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtProcessTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtMODEL_OPTION_ROWRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtSKIT_MSTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtWBS_ONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtLANE_MSTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtMODEL_OPTION_CELLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtINSTRUCTION_DATARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPRODUCTION_DATRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtOPTION_MSTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPAINT_CELLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPAINT_PROGRESSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPAINT_SHOPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPROCESS_OPTION_CELLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPROCESS_MSTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPLC_MSTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPROCESS_GROUP_MSTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPROCESS_LINKAGERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtLOG_DATRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtFINISHING_LINERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtMESSAGE_MSTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPlcStatusRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtPBRPassResultRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtProcessTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Common.dsPAINT.dtMODEL_OPTION_ROWRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtSKIT_MSTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtWBS_ONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtLANE_MSTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtMODEL_OPTION_CELLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtINSTRUCTION_DATARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtPRODUCTION_DATRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtOPTION_MSTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtPAINT_CELLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtPAINT_PROGRESSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtPAINT_SHOPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtPROCESS_OPTION_CELLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtPROCESS_MSTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtPLC_MSTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtPROCESS_GROUP_MSTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtPROCESS_LINKAGERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtLOG_DATRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtFINISHING_LINERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtMESSAGE_MSTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtPlcStatusRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtPBRPassResultRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT.dtProcessTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Common.dsPAINT">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taMODEL_OPTION_ROW">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taSKIT_MST">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taWBS_ON">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taLANE_MST">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taMODEL_OPTION_CELL">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taINSTRUCTION_DATA">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taPRODUCTION_DAT">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taOPTION_MST">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taPAINT_CELL">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taPAINT_PROGRESS">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taPAINT_SHOP">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taPROCESS_OPTION_CELL">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taPROCESS_MST">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taPLC_MST">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taPROCESS_GROUP_MST">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taPROCESS_LINKAGE">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taLOG_DAT">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taFINISHING_LINE">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taMESSAGE_MST">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taPlcStatusTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.taPBRPassResult">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Common.dsPAINTTableAdapters.TableAdapterManager.UpdateUpdatedRows(Common.dsPAINT,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Common.dsPAINTTableAdapters.TableAdapterManager.UpdateInsertedRows(Common.dsPAINT,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Common.dsPAINTTableAdapters.TableAdapterManager.UpdateDeletedRows(Common.dsPAINT,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Common.dsPAINTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Common.dsPAINTTableAdapters.TableAdapterManager.UpdateAll(Common.dsPAINT)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Common.dsPAINTTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

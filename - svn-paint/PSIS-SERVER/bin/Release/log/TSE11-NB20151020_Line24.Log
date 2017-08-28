@@ -1,0 +1,7 @@
+20/10/2015 10:54:28[NORMAL ][TSE11-NB][clsPlcCommunication][SetState][Change State To :clsPBRStateWaiting][]
+20/10/2015 10:54:42[ERROR  ][TSE11-NB][clsPBRStateWaiting][ReadFromPlc][UA PBR - FAIL][]
+20/10/2015 10:54:42[ERROR  ][TSE11-NB][clsPlcCommunication][DoWork][PLC Connect Failed][]
+20/10/2015 10:54:44[ERROR  ][TSE11-NB][clsPBRStateWaiting][ReadFromPlc][UA PBR - FAIL][]
+20/10/2015 10:54:44[ERROR  ][TSE11-NB][clsPlcCommunication][DoWork][PLC Connect Failed][]
+20/10/2015 10:54:46[ERROR  ][TSE11-NB][clsPBRStateWaiting][ReadFromPlc][UA PBR - FAIL][]
+20/10/2015 10:54:46[ERROR  ][TSE11-NB][clsPlcCommunication][DoWork][PLC Connect Failed][]

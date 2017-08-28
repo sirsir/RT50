@@ -1,0 +1,12 @@
+[BreakCondition]
+AND_COUNT=0
+OR_COUNT=0
+[CommandLog]
+LogFile=D:\OMRON\PLC DataFolder\LOG\fins command log 00.flg
+ADDRESS0=1,*,*,*,
+ADDRESS_COUNT=1
+REQUEST0=1,52
+REQUEST1=1,51
+REQUEST2=1,32
+REQUEST3=1,31
+REQUEST_COUNT=4

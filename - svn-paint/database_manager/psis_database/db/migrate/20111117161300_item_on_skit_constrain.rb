@@ -1,0 +1,18 @@
+class ItemOnSkitConstrain < ActiveRecord::Migration
+  def self.up
+    execute <<SQLCMD
+ALTER TABLE [dbo].[T_SKIT_MST]  WITH CHECK ADD  CONSTRAINT [CK_T_SKIT_MST] CHECK  (([MODEL_YEAR] IS NULL AND [SUFFIX_CODE] IS NULL AND [LOT_NO] IS NULL AND [UNIT] IS NULL OR [MODEL_YEAR] IS NOT NULL AND [SUFFIX_CODE] IS NOT NULL AND [LOT_NO] IS NOT NULL AND [UNIT] IS NOT NULL))
+SQLCMD
+
+    execute <<SQLCMD
+ALTER TABLE [dbo].[T_SKIT_MST] CHECK CONSTRAINT [CK_T_SKIT_MST]
+SQLCMD
+  end
+
+  def self.down
+    execute <<SQLCMD
+IF  EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[CK_T_SKIT_MST]') AND parent_object_id = OBJECT_ID(N'[dbo].[T_SKIT_MST]'))
+ALTER TABLE [dbo].[T_SKIT_MST] DROP CONSTRAINT [CK_T_SKIT_MST]
+SQLCMD
+  end
+end

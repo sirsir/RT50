@@ -1,0 +1,380 @@
+
+T_Line_MST_0:
+  LineCode: 1
+  LineName: Eng. ROOM
+  LineType: 1
+  MainLineFlag: 0
+  OnlineFlag: 1
+  IpAddress: 192.148.1.101
+  NetAddress: 1
+  NodeAddress: 101
+  UnitAddress: 0
+  ReadReqAddress: 23000
+  WriteProductionAddress: 20000
+  WriteCarryOutAddress: 22000
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_1:
+  LineCode: 2
+  LineName: FLOOR LINE
+  LineType: 1
+  MainLineFlag: 0
+  OnlineFlag: 1
+  IpAddress: 192.148.1.102
+  NetAddress: 1
+  NodeAddress: 102
+  UnitAddress: 0
+  ReadReqAddress: 23100
+  WriteProductionAddress: 20100
+  WriteCarryOutAddress: 22001
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_2:
+  LineCode: 3
+  LineName: B/Side LINE LH
+  LineType: 1
+  MainLineFlag: 0
+  OnlineFlag: 1
+  IpAddress: 192.148.1.103
+  NetAddress: 1
+  NodeAddress: 103
+  UnitAddress: 0
+  ReadReqAddress: 23200
+  WriteProductionAddress: 20200
+  WriteCarryOutAddress: 22002
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_3:
+  LineCode: 4
+  LineName: B/Side LINE RH
+  LineType: 1
+  MainLineFlag: 0
+  OnlineFlag: 1
+  IpAddress: 192.148.1.104
+  NetAddress: 1
+  NodeAddress: 104
+  UnitAddress: 0
+  ReadReqAddress: 23300
+  WriteProductionAddress: 20300
+  WriteCarryOutAddress: 22003
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_4:
+  LineCode: 5
+  LineName: ROOF LINE
+  LineType: 1
+  MainLineFlag: 0
+  OnlineFlag: 1
+  IpAddress: 192.148.1.105
+  NetAddress: 1
+  NodeAddress: 105
+  UnitAddress: 0
+  ReadReqAddress: 23400
+  WriteProductionAddress: 20400
+  WriteCarryOutAddress: 22004
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_5:
+  LineCode: 6
+  LineName: ''
+  LineType: 1
+  MainLineFlag: 0
+  OnlineFlag: 1
+  IpAddress: 192.148.1.106
+  NetAddress: 1
+  NodeAddress: 106
+  UnitAddress: 0
+  ReadReqAddress: 23500
+  WriteProductionAddress: 20500
+  WriteCarryOutAddress: 22005
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_6:
+  LineCode: 7
+  LineName: CAB MAIN
+  LineType: 1
+  MainLineFlag: 1
+  OnlineFlag: 1
+  IpAddress: 192.148.1.107
+  NetAddress: 1
+  NodeAddress: 107
+  UnitAddress: 0
+  ReadReqAddress: 23600
+  WriteProductionAddress: 20600
+  WriteCarryOutAddress: 22006
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_7:
+  LineCode: 8
+  LineName: P/Box Side LINE RH
+  LineType: 2
+  MainLineFlag: 0
+  OnlineFlag: 1
+  IpAddress: 192.148.1.108
+  NetAddress: 1
+  NodeAddress: 108
+  UnitAddress: 0
+  ReadReqAddress: 23700
+  WriteProductionAddress: 20700
+  WriteCarryOutAddress: 22007
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_8:
+  LineCode: 9
+  LineName: P/Box Side LINE LH
+  LineType: 2
+  MainLineFlag: 0
+  OnlineFlag: 1
+  IpAddress: 192.148.1.109
+  NetAddress: 1
+  NodeAddress: 109
+  UnitAddress: 0
+  ReadReqAddress: 23800
+  WriteProductionAddress: 20800
+  WriteCarryOutAddress: 22008
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_9:
+  LineCode: 10
+  LineName: P/Box MAIN LINE
+  LineType: 2
+  MainLineFlag: 1
+  OnlineFlag: 1
+  IpAddress: 192.148.1.110
+  NetAddress: 1
+  NodeAddress: 110
+  UnitAddress: 0
+  ReadReqAddress: 23900
+  WriteProductionAddress: 20900
+  WriteCarryOutAddress: 22009
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_10:
+  LineCode: 11
+  LineName: Cargo side inner RH
+  LineType: 2
+  MainLineFlag: 0
+  OnlineFlag: 1
+  IpAddress: 192.148.1.111
+  NetAddress: 1
+  NodeAddress: 111
+  UnitAddress: 0
+  ReadReqAddress: 24000
+  WriteProductionAddress: 21000
+  WriteCarryOutAddress: 22010
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_11:
+  LineCode: 12
+  LineName: Cargo side inner LH
+  LineType: 2
+  MainLineFlag: 0
+  OnlineFlag: 1
+  IpAddress: 192.148.1.112
+  NetAddress: 1
+  NodeAddress: 112
+  UnitAddress: 0
+  ReadReqAddress: 24100
+  WriteProductionAddress: 21100
+  WriteCarryOutAddress: 22011
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_12:
+  LineCode: 13
+  LineName: Reserve01
+  LineType: 0
+  MainLineFlag: 0
+  OnlineFlag: 0
+  IpAddress: 192.148.1.113
+  NetAddress: 1
+  NodeAddress: 113
+  UnitAddress: 0
+  ReadReqAddress: 24200
+  WriteProductionAddress: 21200
+  WriteCarryOutAddress: 22012
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_13:
+  LineCode: 14
+  LineName: Reserve02
+  LineType: 0
+  MainLineFlag: 0
+  OnlineFlag: 0
+  IpAddress: 192.148.1.114
+  NetAddress: 1
+  NodeAddress: 114
+  UnitAddress: 0
+  ReadReqAddress: 24300
+  WriteProductionAddress: 21300
+  WriteCarryOutAddress: 22013
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_14:
+  LineCode: 15
+  LineName: Reserve03
+  LineType: 0
+  MainLineFlag: 0
+  OnlineFlag: 0
+  IpAddress: 192.148.1.115
+  NetAddress: 1
+  NodeAddress: 115
+  UnitAddress: 0
+  ReadReqAddress: 24400
+  WriteProductionAddress: 21400
+  WriteCarryOutAddress: 22014
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_15:
+  LineCode: 16
+  LineName: Reserve04
+  LineType: 0
+  MainLineFlag: 0
+  OnlineFlag: 0
+  IpAddress: 192.148.1.116
+  NetAddress: 1
+  NodeAddress: 116
+  UnitAddress: 0
+  ReadReqAddress: 24500
+  WriteProductionAddress: 21500
+  WriteCarryOutAddress: 22015
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_16:
+  LineCode: 17
+  LineName: Reserve05
+  LineType: 0
+  MainLineFlag: 0
+  OnlineFlag: 0
+  IpAddress: 192.148.1.117
+  NetAddress: 1
+  NodeAddress: 117
+  UnitAddress: 0
+  ReadReqAddress: 24600
+  WriteProductionAddress: 21600
+  WriteCarryOutAddress: 22016
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_17:
+  LineCode: 18
+  LineName: Reserve06
+  LineType: 0
+  MainLineFlag: 0
+  OnlineFlag: 0
+  IpAddress: 192.148.1.118
+  NetAddress: 1
+  NodeAddress: 118
+  UnitAddress: 0
+  ReadReqAddress: 24700
+  WriteProductionAddress: 21700
+  WriteCarryOutAddress: 22017
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_18:
+  LineCode: 19
+  LineName: Reserve07
+  LineType: 0
+  MainLineFlag: 0
+  OnlineFlag: 0
+  IpAddress: 192.148.1.119
+  NetAddress: 1
+  NodeAddress: 119
+  UnitAddress: 0
+  ReadReqAddress: 24800
+  WriteProductionAddress: 21800
+  WriteCarryOutAddress: 22018
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
+
+T_Line_MST_19:
+  LineCode: 20
+  LineName: Reserve08
+  LineType: 0
+  MainLineFlag: 0
+  OnlineFlag: 0
+  IpAddress: 192.148.1.120
+  NetAddress: 1
+  NodeAddress: 120
+  UnitAddress: 0
+  ReadReqAddress: 24900
+  WriteProductionAddress: 21900
+  WriteCarryOutAddress: 22019
+  Part1: 1
+  Part2: 1
+  Part3: 1
+  Part4: 1
+  Part5: 1
